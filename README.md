@@ -28,6 +28,11 @@ It watches a folder and logs any changes — such as file creation, deletion, mo
 
 ## 🚀 Usage
 
+Before running the script, make it executable:
+```bash
+chmod +x monitor.sh
+```
+
 ```bash
 ./monitor.sh start /path/to/folder     # Start monitoring
 ./monitor.sh stop /path/to/folder      # Stop monitoring
