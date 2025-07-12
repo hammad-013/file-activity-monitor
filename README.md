@@ -1,7 +1,7 @@
 # 📂 file-activity-monitor
 
 A simple real-time file activity monitor built in **Bash**, using **inotifywait**.  
-It watches a folder and logs any changes — such as file creation, deletion, modification, or movement — in real time.
+It watches a folder and logs any changes — such as file creation, deletion, or modification — in real time.
 
 ---
 
@@ -47,3 +47,6 @@ Logs are saved under:
 
 PID files are stored securely in:
 `~/.monitor_pids/`
+
+## 📷 Output Screenshot
+![CLI Output](screenshot.png)
